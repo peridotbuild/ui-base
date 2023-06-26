@@ -1,0 +1,29 @@
+@layer components {
+  .pv2-top-bar {
+    @apply fixed w-full px-4 h-12 border-b border-black border-opacity-10 flex items-center bg-white;
+
+    & > #logo {
+      @apply flex-1 font-bold;
+    }
+
+    & > #search {
+      @apply flex-1 flex justify-center;
+
+      & > form {
+        width: 100%;
+      }
+
+      & > form > input {
+        @apply w-full h-8 px-2 border border-black border-opacity-10 rounded bg-neutral-100;
+      }
+    }
+
+    & > #links {
+      @apply flex-1 flex justify-end;
+
+      & > a {
+        @apply mr-4 hocus:underline;
+      }
+    }
+  }
+}

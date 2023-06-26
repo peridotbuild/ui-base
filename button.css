@@ -1,0 +1,24 @@
+@layer components {
+  .pv2-button {
+    @apply font-medium rounded-lg focus:outline-none focus:shadow;
+    @apply text-white bg-blue-500 hover:bg-blue-600;
+
+    &.pv2-secondary {
+      @apply text-blue-500 bg-white hover:bg-gray-100;
+    }
+
+    &.pv2-tertiary {
+      @apply text-gray-500 bg-white hover:bg-gray-100;
+    }
+
+    @apply px-2 py-1 text-xs;
+
+    &.pv2-medium {
+      @apply px-4 py-2 text-sm;
+    }
+
+    &.pv2-large {
+      @apply px-6 py-3 text-base;
+    }
+  }
+}

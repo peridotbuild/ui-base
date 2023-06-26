@@ -1,0 +1,5 @@
+@layer components {
+  .pv2-card {
+    @apply bg-white rounded-lg shadow-lg p-4;
+  }
+}

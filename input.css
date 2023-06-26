@@ -1,0 +1,13 @@
+@layer components {
+  .pv2-input {
+    @apply flex flex-col;
+
+    & > label {
+      @apply text-sm pb-1 text-slate-600;
+    }
+
+    & > input {
+      @apply p-2 block border border-slate-300 rounded;
+    }
+  }
+}

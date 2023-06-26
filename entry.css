@@ -1,0 +1,10 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+
+@import 'button.css';
+@import 'card.css';
+@import 'content.css';
+@import 'input.css';
+@import 'top-bar.css';
+
+@import 'tailwindcss/utilities';
