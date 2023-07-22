@@ -6,7 +6,7 @@
       @apply flex-1;
 
       & > div > a {
-        @apply block font-bold no-underline text-black hocus:underline;
+        @apply font-bold no-underline text-black hocus:underline;
       }
     }
 
