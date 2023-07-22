@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "NODE_ENV=production tailwindcss --postcss -i ./entry.css -o ./dist/pv2_ui_base/pv2.min.css",
+    "build": "NODE_OPTIONS=--max-old-space-size=16384 NODE_ENV=production tailwindcss --postcss -i ./entry.css -o ./dist/pv2_ui_base/pv2.min.css",
     "watch": "tailwindcss --postcss -i ./entry.css -o ./dist/pv2_ui_base/output.css --watch"
   },
   "keywords": [],

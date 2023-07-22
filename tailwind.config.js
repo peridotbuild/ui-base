@@ -5,40 +5,16 @@ module.exports = {
   content: ['./demo/*.html'],
   safelist: [
     {
-      pattern: /pv2-.*/,
+      pattern: /^pv2-.*/,
     },
     {
-      pattern: /^antialiased|truncate|fixed|whitespace-normal$/,
+      pattern: /^(bg|text|font|border)-.*/,
+      variants: ['hocus', 'hover', 'focus'],
     },
     {
-      pattern: /^(-|)(p|m)(x|y|l|b|r|t|)-.*/,
-    },
-    {
-      pattern: /^text-.*/,
-    },
-    {
-      pattern: /^font-.*/,
-    },
-    {
-      pattern: /^(bg|text)-(white|slate-100|blue-.*|green-.*)/,
-    },
-    {
-      pattern: /^rounded-lg/,
-    },
-    {
-      pattern: /^shadow-lg/,
-    },
-    {
-      pattern: /^space.*/,
-    },
-    {
-      pattern: /^border.*/,
-    },
-    {
-      pattern: /^(max-|)(w|h)-.*/,
-    },
-    {
-      pattern: /^(items|flex|justify)(|.*)/,
+      pattern:
+        /^(-|)((items|flex|justify|max|antialiased|truncate|fixed|whitespace|rounded|shadow|space)|((p|m)(x|y|l|b|r|t|)-)).*/,
+      variants: ['sm', 'md'],
     },
   ],
   theme: {
