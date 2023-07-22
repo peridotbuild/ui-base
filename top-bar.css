@@ -3,7 +3,11 @@
     @apply fixed w-full px-4 h-12 border-b border-black border-opacity-10 flex items-center bg-white;
 
     & > #logo {
-      @apply flex-1 font-bold no-underline text-black hocus:underline;
+      @apply flex-1;
+
+      & > a {
+        @apply block font-bold no-underline text-black hocus:underline;
+      }
     }
 
     & > #search {
