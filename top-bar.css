@@ -5,7 +5,7 @@
     & > #logo {
       @apply flex-1;
 
-      & > div > a {
+      & > div > a:not(.nostyle) {
         @apply font-bold no-underline text-black hocus:underline;
       }
     }
