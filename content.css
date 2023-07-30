@@ -67,7 +67,7 @@
   }
 
   /* Link */
-  a {
+  a:not(.nostyle) {
     @apply text-blue-500 hocus:underline;
   }
 }
