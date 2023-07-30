@@ -6,7 +6,8 @@
       @apply text-sm pb-1 text-slate-600;
     }
 
-    & > input {
+    & > input,
+    & > textarea {
       @apply p-2 block border border-slate-300 rounded;
     }
   }
