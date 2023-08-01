@@ -32,7 +32,7 @@
 
   /* Code */
   pre {
-    @apply bg-neutral-200 text-gray-800 p-2 overflow-scroll border border-neutral-300 my-2;
+    @apply bg-neutral-200 text-gray-800 p-2 overflow-scroll border border-neutral-300 my-3 font-mono text-sm;
   }
 
   /* Ordered list */
